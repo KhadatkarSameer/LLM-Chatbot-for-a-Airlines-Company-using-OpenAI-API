@@ -19,7 +19,7 @@ Built with Python, Gradio, OpenAI APIs, and speech/text processing tools — all
 
 ### 🧰 Custom Tools Included
 - `get_ticket_price(city)`: Simulates ticket price retrieval.
-- `generate_city_image(city)`: Creates a **vibrant pop-art style image** of the requested city.
+- `artistic(city)`: Creates a **vibrant pop-art style image** of the requested city.
 - Easily extendable with more tools.
 
 ### 🗣️ Text-to-Speech Output
