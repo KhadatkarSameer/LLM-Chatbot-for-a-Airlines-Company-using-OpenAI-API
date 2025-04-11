@@ -64,6 +64,8 @@ Built with Python, Gradio, OpenAI APIs, and speech/text processing tools — all
    git clone https://github.com/KhadatkarSameer/LLM-Chatbot-for-a-Airlines-Company-using-OpenAI-API.git
    cd LLM-Chatbot-for-a-Airlines-Company-using-OpenAI-API
 
+---
+
 ## 🔮 Possible Enhancements
 
 This project is designed with modularity and extensibility in mind. Below are several **potential enhancements** that can significantly expand its capabilities:
