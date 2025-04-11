@@ -49,7 +49,7 @@ Built with Python, Gradio, OpenAI APIs, and speech/text processing tools — all
 |-----------------------|--------------------------|
 | Voice Input           | `openai` (whisper-1 model) |
 | Text Input/Output     | `gradio`                 |
-| LLM + Tool Use        | `openai` (function calling) |
+| LLM + Tool Use        | `openai` (gpt-4o-mini, with function calling) |
 | Text-to-Speech        | `openai` (tts-1 model)   |
 | AI Image Generation   | `openai.Image.create` or compatible function |
 | Web Interface         | `gradio`                 |
