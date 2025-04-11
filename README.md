@@ -47,10 +47,10 @@ Built with Python, Gradio, OpenAI APIs, and speech/text processing tools — all
 
 | Feature               | Tool/Library             |
 |-----------------------|--------------------------|
-| Voice Input           | `speech_recognition`     |
+| Voice Input           | `openai` (whisper-1 model) |
 | Text Input/Output     | `gradio`                 |
 | LLM + Tool Use        | `openai` (function calling) |
-| Text-to-Speech        | `pyttsx3`                |
+| Text-to-Speech        | `openai` (tts-1 model)   |
 | AI Image Generation   | `openai.Image.create` or compatible function |
 | Web Interface         | `gradio`                 |
 
@@ -61,5 +61,29 @@ Built with Python, Gradio, OpenAI APIs, and speech/text processing tools — all
 1. **Clone the repo:**
 
    ```bash
-   git clone https://github.com/your-username/airlines-chatbot.git
-   cd airlines-chatbot
+   git clone https://github.com/KhadatkarSameer/LLM-Chatbot-for-a-Airlines-Company-using-OpenAI-API.git
+   cd LLM-Chatbot-for-a-Airlines-Company-using-OpenAI-API
+
+## 🔮 Possible Enhancements
+
+This project is designed with modularity and extensibility in mind. Below are several **potential enhancements** that can significantly expand its capabilities:
+
+- **Flight Booking Integration**  
+  Extend the chatbot to support booking tickets by collecting travel details (destination, date, number of passengers) and interfacing with external flight APIs.
+
+- **Complaint Handling**  
+  Allow users to raise service complaints through a conversational form, with complaint tracking and ticket generation.
+
+- **Live Flight Schedules and Status**  
+  Integrate real-time flight schedule lookups and status updates from public or private airline APIs.
+
+- **Baggage & Visa Information**  
+  Provide destination-specific travel requirements such as visa policies, baggage limits, customs regulations, etc.
+
+- **Multilingual Support**  
+  Enhance accessibility by translating chatbot responses into the user’s preferred language or auto-detecting language based on input.
+
+- **Itinerary Sharing via Email**  
+  Enable the chatbot to email users a summary of their planned itinerary, booking confirmations, or generated city visuals.
+
+> These enhancements can be powered by extending **OpenAI’s function-calling interface**, allowing seamless communication between the LLM and external tools or APIs.
