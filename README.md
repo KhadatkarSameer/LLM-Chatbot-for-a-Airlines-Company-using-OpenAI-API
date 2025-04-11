@@ -51,7 +51,7 @@ Built with Python, Gradio, OpenAI APIs, and speech/text processing tools — all
 | Text Input/Output     | `gradio`                 |
 | LLM + Tool Use        | `openai` (gpt-4o-mini, with function calling) |
 | Text-to-Speech        | `openai` (tts-1 model)   |
-| AI Image Generation   | `openai.Image.create` or compatible function |
+| AI Image Generation   | `openai` (dall-e-3 model) |
 | Web Interface         | `gradio`                 |
 
 ---
